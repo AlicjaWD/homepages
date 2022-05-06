@@ -1,0 +1,23 @@
+.header {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background: maroon;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header__paragraph {
+    margin: 0;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.header__header {
+    font-size: 80px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-shadow: black 5px 5px 2px;
+    color: white;
+}

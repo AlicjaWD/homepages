@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Alicja Wierzbicka-Duda</title>
+  <link rel="icon" href="images/logo.png">
+  <meta property="og:image" content="images/share.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/article.css" rel="stylesheet">
+  <link href="css/container.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body class="body">
+  <header class="header">
+    <p class="header__paragraph">Alicja Wierzbicka-Duda</p>
+    <h1><span class="header__pl js-header__pl" lang="pl"> Witam! </span>
+
+  </header>
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__item"><a class="navigation__link" href="#kilka_slow">Kilka słów</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#moje_zainteresowania">Moje zainteresowania</a>
+      </li>
+      <li class="navigation__item"><a class="navigation__link" href="#ulubione_filmy">Ulubione filmy</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article class="article">
+      <p class="article__paragraph">
+        <button class="js-background">Zmień tło na <span class="js-themeName"> brązowe </span> </button>
+        <button class="js-changeLanguage js-backToPolish">Zmień język <span class="js-namePl"> na
+            niemiecki</span></button>
+      </p>
+      <section class="section">
+        <h2>
+          <span id="kilka_slow" class="section__HeaderPl js-section__HeaderPl"> Kilka słów o mnie...✍️</span>
+        </h2>
+        <img class="section__image js-section__image" src=images\zdjecie.jpg alt="Alicja Wierzbicka-Duda">
+        <p class="section__paragraph">
+          <button class="js-deleteImage"> Usuń zdjęcie </button>
+        </p>
+        <p class="section__pl js-section__paragraph"> Mam na imię <b> Alicja</b>. Mam <em>25 lat</em>, niedawno
+          skończyłam studia magisterskie z mikrotechnologii, a od prawie dwóch lat pracuję jako fizyk medyczny. Mieszkam
+          na <strong>Śląsku</strong>, ale chętnie, gdy tylko mam okazję uciekam poza jego granice. Lubię aktywną
+          wspinaczkę górską jak i spokojny spacer brzegiem morza. Kontakt z naturą jest dla mnie bardzo ważny.
+        </p>
+      </section>
+      <section class="section">
+        <h2 id="moje_zainteresowania" class="section__header"> Moje zainteresowania: </h2>
+        <ul class="section__list">
+          <li class="section__item">pilates</li>
+          <li class="section__item">malowanie</li>
+          <li class="section__item">literatura faktu i psychologiczna</li>
+          <li class="section__item">nauka języków</li>
+        </ul>
+      </section>
+      <div class="container">
+        <table class="table">
+          <caption id="ulubione_filmy" class="table__caption">Moje ulubione filmy</caption>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+            <th class="table__cell table__cell--header" scope="col">Reżyser</th>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">Batman-trylogia</th>
+            <td class="table__cell" rowspan="2">Christopher Nolan</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">Incepcja</th>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">Władca Pierścieni-trylogia</th>
+            <td class="table__cell">Peter Jackson</td>
+          </tr>
+        </table>
+      </div>
+    </article>
+  </main>
+  <footer class="footer">
+    Marzec 2022r.
+  </footer>
+</body>
+
+</html>

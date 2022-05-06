@@ -1,0 +1,35 @@
+.section {
+    margin: 20px auto;
+    padding: 10px;
+}
+.section__image {
+    max-width: 200px;
+    height: 180px;
+    border-width: 10px 5px;
+    border-style: solid;
+    border-color: brown maroon;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px black;
+    margin: 0 auto;
+}
+
+
+.section__paragraph {
+    line-height: 25px;
+}
+
+.section__header {
+    color: white;
+    padding: 1%;
+    text-shadow: black 5px 5px 2px;
+}
+
+.section__list {
+    padding-left: 40%;
+    text-align: left;
+    list-style-type: square;
+}
+
+.section__item {
+    margin: 10px 0;
+}
