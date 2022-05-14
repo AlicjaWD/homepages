@@ -2,15 +2,13 @@
   const welcome = () => {
     console.log("Hej :)");
   }
-  welcome();
-
-  const ToogleBackground = () => {
+  const toogleBackground = () => {
     const body = document.querySelector(".body");
     const themeName = document.querySelector(".js-themeName");
     body.classList.toggle("body--red");
     themeName.innerText = body.classList.contains("body--red") ? "kasztanowy" : "brązowy";
   };
-  const ToggleLanguage = () => {
+  const toggleLanguage = () => {
     const headerPl = document.querySelector(".js-header__pl");
     const sectionHeaderPl = document.querySelector(".js-section__HeaderPl");
     const sectionPl = document.querySelector(".js-section__paragraph");
@@ -32,9 +30,10 @@
     const background = document.querySelector(".js-background");
     const changeLanguage = document.querySelector(".js-changeLanguage");
     const deleteImage = document.querySelector(".js-deleteImage");
-    background.addEventListener("click", ToogleBackground);
-    changeLanguage.addEventListener("click", ToggleLanguage);
+    background.addEventListener("click", toogleBackground);
+    changeLanguage.addEventListener("click", toggleLanguage);
     deleteImage.addEventListener("click", onDeleteImageClick);
+    welcome();
   };
   init();
 
